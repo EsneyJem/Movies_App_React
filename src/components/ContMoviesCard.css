@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: columns; */
+  text-align: center;
+  /* grid-template-columns: repeat(autofill, 230px); */
+  gap: 40px;
+  padding: 60px;
+  justify-content: center;
+  background-color:black;
+  
+  }
+
+@media (max-width: 560px){
+  .container{
+    grid-template-columns: 100%;
+  }
+  
+}
